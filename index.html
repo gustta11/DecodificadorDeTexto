@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href='css/style.css'>
+  <title>Decodificador Alura</title>
+</head>
+
+<body>
+  <div class="root">
+    <div class="container">
+      <div class="header">
+        <span id="aluraLogo"><a href="https://www.alura.com.br/"><img src="img/logo_alura.png"
+              alt="Logo Da Alura"></a></span>
+      </div>
+
+      <div class="input">
+        <input type="text" id="textEntry" placeholder="Digite o seu texto">
+        <div class="buttons">
+          <div class="alert">
+            <img src="img/exclamacao_vectort.png" alt="">
+            <p id="alertText">Apenas letras minúsculas e sem acento.</p>
+          </div>
+          <button onclick="encoder(1)" id="buttonEncode">Codificar</button>
+          <button onclick="encoder(2)" id="buttonDecode">Decodificar</button>
+        </div>
+      </div>
+
+      <div class="output">
+
+      </div>
+      <div class="footer">
+        <p>Projeto desenvolvido por Gustavo Keven</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="javaScript/script.js">
+</script>
+
+</html>
